@@ -1,0 +1,6 @@
+
+I am pleased with the outcome of the final product, however i am not quite sure 
+the Javascript is at it most effecient state? 
+
+Me not using Arrays or IF / ELSE is just me finding a work around what i found to be difficult. 
+I hope to learn more about these shortcuts in the future! 
