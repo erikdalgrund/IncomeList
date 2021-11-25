@@ -1,0 +1,28 @@
+
+// Div that holds the left-list-container and the right-list-container.
+.list-container {
+    height: 25.2rem; 
+    display: flex;
+    background-color:black
+} 
+
+.left-list-container {
+    overflow-x: hidden;
+    height: 100%;
+    width: 18rem;
+    border-radius: 25px;
+    background-color: rgb(218, 207, 192);
+    border: solid 3px black;
+    background-image: url("Pictures/List-background.jpeg");
+} 
+
+.right-list-container {
+    overflow-x: hidden;
+    height: 100%; 
+    width: 18rem; 
+    border-radius: 25px;
+    background-color: rgb(218, 207, 192);
+    border: solid 3px black; 
+    background-image: url("Pictures/List-background.jpeg");
+
+} 

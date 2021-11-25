@@ -1,0 +1,53 @@
+
+
+// Header-container is the div with the "moneyplaner" h1-tag
+.header-container {
+    border-radius: 25px;
+    height: 9rem; 
+    display: flex;
+    justify-content: space-between; 
+    justify-content: center; 
+    align-items: center;
+    font-size: x-large;
+    background-color: rgb(131, 182, 131);
+    border: solid 3px black 
+} 
+
+// container for the expense and income button.
+.input-container {
+    height: 5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(218, 207, 192);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+} 
+// padding for the input fields.
+input {
+    padding-left: 0.6rem;
+} 
+
+// div that contains the input fields.
+.second-input-container {
+    height: 3rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    background-color: rgb(218, 207, 192); 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#text-input {
+    border-radius: 25px;
+    width: 13rem;
+
+}
+
+#cost-input {
+    border-radius: 25px;
+    width: 13rem;
+}

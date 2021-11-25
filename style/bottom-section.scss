@@ -1,0 +1,18 @@
+
+// The div for the bottom section.
+.footer-container {
+    border-radius: 25px;
+    height: 8.5rem;
+    display: flex;
+    align-items: center; 
+    background-color: rgb(131, 182, 131);
+}
+// Div that contains "total capital".
+.footer-text {
+    margin-left: 2rem;
+} 
+// Div for result.
+.result {
+    margin-left: 1rem;
+    font-size: xx-large;
+}

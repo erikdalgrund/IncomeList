@@ -1,0 +1,62 @@
+
+// the font for the project, padding, margin and the border-box 
+// for easier styling.
+* {
+    font-family: 'Mochiy Pop One', sans-serif; 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+
+// Main container, contains all the other div's. 
+.container{
+    height: 100%;
+    max-width: 36rem;
+    border-radius: 25px;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border: solid 5px black;
+} 
+
+// All the buttons
+
+button {
+    height: 3rem;
+    width: 13rem;
+    font-size: x-large;
+    border-radius: 25px;
+    background-color: rgb(131, 182, 131);
+    border: solid 1px black; 
+    cursor: pointer;
+    outline: none; 
+    transition: .3s;
+    
+}
+
+.btn {
+    height: 2rem;
+    width: 2rem; 
+    font-size: 1.1rem;
+    border-radius: 25px;
+    background-color: rgb(131, 182, 131);
+    border: solid 1px black; 
+    cursor: pointer;
+    outline: none; 
+}
+
+button:focus {
+    cursor: pointer; 
+    border: solid 3px black; 
+    color: rgb(160, 141, 115);
+    box-shadow: 0px 0px 0px 1px rgb(218, 207, 192);
+    animation: anim-shadow .3s forwards;
+    
+}
+@keyframes anim-shadow {
+    100% {
+        box-shadow: 0px 0px 50px 20px rgb(163, 159, 154);
+    }
+}
